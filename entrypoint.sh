@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 rm -f /var/run/fail2ban/*
 fail2ban-server -b
 tail -f /var/log/fail2ban.log
